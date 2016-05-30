@@ -100,7 +100,7 @@ void makeLink(std::vector<PROBLEM> & v)
 	//www.spoj.com/problems/ABA12D/
 	for(int i = 0 ; i < v.size() ; i++)
 		v[i].points = 80.0/(40.0+ v[i].users),
-		v[i].links = "<a href =\" http:://www.spoj.com/problems/" + v[i].name +"\"> " + v[i].name +" "+ to_string(v[i].points) +"</a> <br>";
+		v[i].links = "<a href =\" http://www.spoj.com/problems/" + v[i].name +"\"> " + v[i].name +" "+ to_string(v[i].points) +"</a> <br>";
 }
 string makeHtml(std::vector<PROBLEM> & v)
 {
